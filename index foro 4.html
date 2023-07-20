@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavio Saenz</title>
+    <style>
+        body{
+            background-color: rgb(116, 88, 219);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        //opciones - menu
+        let opcion = prompt(`Seleccione una opción:
+            1. Suma
+            2. Resta
+            3. Multiplicacion
+            4. Dvision
+            5. Elevar
+            6. Numero mayor y menor`);
+
+        switch (opcion) {
+        case "1":
+            //suma
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var operacion = num1+num2
+            document.write("El resultado de la suma de ambos numeros es igual a: " + operacion)
+            alert("El resultado de la suma de ambos numeros es igual a: " + operacion)
+            break;
+
+        case "2":
+            //resta
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var operacion= num1-num2
+            document.write("El resultado de la resta de ambos numeros es igual a: " + operacion)
+            alert("El resultado de la resta de ambos numeros es igual a: " + operacion)
+            break;
+
+        case "3":
+            //multiplicacion
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var operacion = num1*num2
+            document.write("El resultado de la multiplicacion de ambos numeros es igual a: " + operacion)
+            alert("El resultado de la multiplicacion de ambos numeros es igual a: " + operacion)
+            break;
+
+        case "4":
+            //division
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var operacion = num1/num2
+            document.write("El resultado de la division de ambos numeros es igual a: " + operacion)
+            alert("El resultado de la division de ambos numeros es igual a: " + operacion)
+            break;
+
+        case "5":
+            //comparacion
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var operacion = num1**num2
+            document.write("La elevasion del numero " + num1 + " por el numeor " + num2 + " da como resultado: " + operacion)
+            alert("La elevasion del numero " + num1 + " por el numeor " + num2 + " da como resultado: " + operacion)
+            break;
+            
+        case "6":
+            //exponencial
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            if(num1>num2){
+                document.write("El numero mayor ingresado ha sido: " + num1 + " y el numero menor fue: " + num2)
+                alert("El numero mayor ingresado ha sido: " + num1 + " y el numero menor fue: " + num2)
+            }else{let opcion = prompt(`Seleccione una opción:
+            1. Suma
+            2. Resta
+            3. Multiplicacion
+            4. Dvision
+            5. Elevar
+            6. Numero mayor y menor`);
+
+        switch (opcion) {
+        case "1":
+            //suma
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var operacion = num1+num2
+            document.write("El resultado de la suma de ambos numeros es igual a: " + operacion)
+            alert("El resultado de la suma de ambos numeros es igual a: " + operacion)
+            break;
+
+        case "2":
+            //resta
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var operacion= num1-num2
+            document.write("El resultado de la resta de ambos numeros es igual a: " + operacion)
+            alert("El resultado de la resta de ambos numeros es igual a: " + operacion)
+            break;
+
+        case "3":
+            //multiplicacion
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var operacion = num1*num2
+            document.write("El resultado de la multiplicacion de ambos numeros es igual a: " + operacion)
+            alert("El resultado de la multiplicacion de ambos numeros es igual a: " + operacion)
+            break;
+
+        case "4":
+            //division
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var operacion = num1/num2
+            document.write("El resultado de la division de ambos numeros es igual a: " + operacion)
+            alert("El resultado de la division de ambos numeros es igual a: " + operacion)
+            break;
+
+        case "5":
+            //comparacion
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var operacion = num1**num2
+            document.write("La elevasion del numero " + num1 + " por el numeor " + num2 + " da como resultado: " + operacion)
+            alert("La elevasion del numero " + num1 + " por el numeor " + num2 + " da como resultado: " + operacion)
+            break;
+            
+        case "6":
+            //exponencial
+            var num1
+            while (isNaN(num1)) {
+            num1 = Number(prompt("Ingresa el primer número:"))
+
+            if (isNaN(num1)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            var num2
+            while (isNaN(num2)) {
+            num2 = Number(prompt("Ingresa el segundo número:"))
+            
+            if (isNaN(num2)) {
+                alert("Error: Debes ingresar un número")
+            }
+            }
+
+            if(num1>num2){
+                document.write("El numero mayor ingresado ha sido: " + num1 + " y el numero menor fue: " + num2)
+                alert("El numero mayor ingresado ha sido: " + num1 + " y el numero menor fue: " + num2)
+            }else{
+                document.write("El numero mayor ingresado ha sido: " + num2 + " y el numero menor fue: " + num1)
+                alert("El numero mayor ingresado ha sido: " + num2 + " y el numero menor fue: " + num1)
+            }
+            break;
+        default:
+            alert("Opción no válida");
+            break;
+        }
+
+        //repetision
+        let respuesta = prompt("¿Desea continuar? s/n");
+
+        if (respuesta && respuesta.toLowerCase() == "s") {
+        location.reload();
+        }
+                alert("El numero mayor ingresado ha sido: " + num2 + " y el numero menor fue: " + num1)
+            }
+            break;
+        default:
+            alert("Opción no válida");
+            break;
+        }
+
+        //repetision
+        let respuesta = prompt("¿Desea continuar? s/n");
+
+        if (respuesta && respuesta.toLowerCase() == "s") {
+        location.reload();
+        }
+    </script>
+</body>
+</html>
